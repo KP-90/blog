@@ -1,12 +1,15 @@
 <h1>Hello, Rails!</h1>
+<div id="new_article">
+    <button><%= link_to "+new", new_article_path %></button>
+</div>
 
-<ul>
-    <% @articles.each do |article| %>
-        <li>
-            <%= link_to article.title, article %>
-        </li>
-    <% end %>
-</ul>
-
-<%= link_to "New Article", new_article_path %>
-
+<div id="article">
+    <div id="cards">
+        <% @articles.each do |article| %>
+            <div class="card">
+                <%= link_to article.title, article %><br>
+                <%= article.body %>
+            </div>
+        <% end %>
+    </div>
+</div>
