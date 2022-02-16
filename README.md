@@ -1,24 +1,10 @@
-# README
+## Rails Getting Started: Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This just follows along on the Getting Started with Rails guide, which can be found here:
 
-Things you may want to cover:
+https://guides.rubyonrails.org/v6.1/getting_started.html
 
-* Ruby version
 
-* System dependencies
+### View it in action here:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://gentle-tundra-06026.herokuapp.com/
